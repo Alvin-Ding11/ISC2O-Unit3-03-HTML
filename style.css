@@ -1,0 +1,25 @@
+img { 
+  float: right;
+}
+
+div{
+  border: 2px solid black;
+  background: lightblue;
+}
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  border: 5px solid crimson;
+  z-index: -2;
+}
+
+.scimg {
+  height: 2000px;
+  width: 500px;
+}
+
+.clearfix {
+  overflow: auto;
+}
